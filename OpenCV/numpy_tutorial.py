@@ -36,5 +36,5 @@ print(a)
 b = np.linspace(0, 100, 100)
 print(b)
 
-# Conserve all data restored in the array, but alter its dimension.
+# Conserve all data stored in the array, but alter its dimension.
 print(b.reshape(5, 20))
