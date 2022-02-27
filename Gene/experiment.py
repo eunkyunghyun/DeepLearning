@@ -1,6 +1,7 @@
 from genetic import *
 
-password = 'ascii'  # a password consisting of letters and numbers
+ # Set a password consisting of letters and numbers.
+password = 'ascii'
 
 MIN_LEN = 2
 MAX_LEN = 10
@@ -12,7 +13,7 @@ MUTATE_PERCENT = 10
 
 COUNT = 1
 
-# create initial population
+# Create an initial population.
 pop = generate_population(POPULATION, MIN_LEN, MAX_LEN)
 
 while True:
