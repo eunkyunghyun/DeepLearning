@@ -1,5 +1,5 @@
 """
-This is developed to promote numerous tasks in working with YOLOv5.
+This was developed to promote numerous tasks in working with YOLOv5.
 To receive the latest information, please refer to our GitHub browser.
 The parts marked as a pair of parentheses signify what must be inputted personally.
 """
