@@ -20,21 +20,21 @@ print(d, d.dtype)
 a = np.zeros((3, 4))
 print(a, a.dtype)
 
-# All of the array's elements are filled with numerical one
+# All of the array's elements are filled with numerical one.
 b = np.ones((2, 2))
 print(b, b.dtype)
 
-# All of the array's elements are filled with empty type's thresholds in the numpy module.
+# All of the array's elements are filled with vacant type's thresholds in the numpy module.
 c = np.empty((3, 3))
 print(c, c.dtype)
 
-# Create an array that is comprised of a form of the arithmetic sequence.
+# Create an array that is comprised of a form of an arithmetic sequence.
 a = np.arange(1, 10, 1)
 print(a)
 
-# Create an array whose length of elements are divided up into what you set.
+# Create an array whose length of elements is divided up into what you set.
 b = np.linspace(0, 100, 100)
 print(b)
 
-# Conserve all data stored in the array, but alter its dimension.
+# Conserve all the data stored in the array, but alter its dimension.
 print(b.reshape(5, 20))
