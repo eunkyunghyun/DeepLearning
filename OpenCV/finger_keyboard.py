@@ -47,7 +47,7 @@ index = 0
 while True:
     # Load an image taken consistently
     success, frame = cap.read()
-    # Flip the frame abstracted from the webcam
+    # Flip the frame abstracted from your webcam attached on the computer.
     frame = cv2.flip(frame, 1)
     # Look up the hands and its landmarks with it drawing them
     hands, frame = detector.findHands(frame)
